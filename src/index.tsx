@@ -12,8 +12,8 @@ export default function Cancel(
   props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>
 ): JSX.Element {
   return (
-    <svg width='24' height='24' viewBox='0 0 24 24' {...props}>
-      <path d='M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z' />
+    <svg width='14' height='14' viewBox='0 0 20 20' {...props}>
+      <path d='M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z' />
     </svg>
   )
 }
@@ -225,8 +225,8 @@ const Element = (props: ElementProps): JSX.Element => {
       >
         <Cancel
           style={{ fill: 'var(--bs-white)', opacity: 1 }}
-          width={18}
-          height={18}
+          width={14}
+          height={14}
         />
       </button>
     </div>
